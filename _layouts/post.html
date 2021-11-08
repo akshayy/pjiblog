@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="{{site.language}}">
+  {% include head.html %}
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <div style="text-align: right;">
+        <button type="button" onclick="closeNav()" class="btn-close" aria-label="Close" style="margin-top: 20px;margin-right: 15px;cursor: pointer;outline: none;box-shadow: none;"></button>
+      </div>
+      <a href="https://zerotopm.info">Free Resources</a>
+      <a style="display:none" href="#">Blog</a>
+    </div>
+
+    <header class="globalNav">
+      <div class="container-lg">
+        <nav>
+          <ul>
+            <li class="navSection-logo">
+              <a class="logo" href="/">
+                <img src="https://productjobsindia.com/static/img/logo.png" style="width: 200px;height: 60px;object-fit: cover;">
+              </a>
+            </li>
+            <li class="navSection-links">
+              <a href="https://zerotopm.info" target="_blank" style="margin-right:20px;">
+                Free Resources
+              </a>
+              <a style="display:none" href="https://zerotopm.info" target="_blank">
+                Blog
+              </a>
+            </li>
+            <li class="navSection-sidemenu">
+              <span style="font-size: 22px;cursor:pointer;z-index: 0;" onclick="openNav()">☰</span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+  <main style="width:100%;">
+	<section class="blog-home-link-Section" style="padding-bottom: 20px;padding-top: 90px;">
+		<div class="blog-home-page-title">
+			<a href="{{site.url}}{{site.baseurl}}">Blog Home</a> / {{ page.title }} 
+		</div>
+	</section>
+
+    <section class="blog-Section" style="padding:0 20px 50px">
+      <div id="single-post-section">
+	<div class="single-blog-post" style="">
+          <div class="single-blog-post-title" style="">
+		{{ page.title }}            
+          </div>
+	  <div class="single-blog-post-metadata" style=""> 
+		<a href="#">- by {{page.author}} </a>
+		<span style="text-align: right;float: right;">
+			Posted on {{ page.date | date: "%-d %b %Y" }}
+		</span>
+	  </div>
+	  <div class="single-blog-post-content" style=""> 
+		{{content}}
+	  </div>
+      </div>
+      </div>
+
+      <div id="contact-us">
+        <div style="position: absolute;width: 200px;height: 50px;top: 0;right: 0;background-image: linear-gradient(135deg, #424770 18%, #0000ff00 19%, #0000ff00 41%, #424770 42%, #424770 75%, #0000ff00 75%, #0000ff00 100%);">
+        </div>
+        <p style="color: #424770;">Wish to submit an article?</p>
+        <p style="color: #424770;">Write to us at <a href="#">productjobsindia@gmail.com</a></p>
+      </div>
+    </section>
+    {% include footer.html %}
+  </main>	
+  </body>
+</html>

@@ -1,0 +1,848 @@
+
+body {
+	font-family: "Ubuntu", sans-serif;
+	background: #f6f9fc;
+    min-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;	
+}
+
+.globalNav {
+	font-family: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    right: 0;
+    z-index: 500;
+    height: 50px;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+}
+
+.globalNav>.container-lg {
+    padding: 0 20px;
+}
+
+.container-lg{
+	max-width: 1040px;
+	margin:0 auto;
+	width: 100%
+}
+
+.globalNav .navRoot {
+    position: relative;
+}
+
+.globalNav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.globalNav li {
+    list-style: none;
+}
+
+.navSection-logo {
+	position: absolute;
+}
+
+.navSection-links, .navSection-sidemenu{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding:13px 0px;
+}
+
+.navSection-sidemenu {
+	display: none;
+}
+
+.logo{
+	display: flex;
+	flex-direction: row;
+	color: #424770;
+	letter-spacing: -0.07em;
+
+}
+
+.logo h1 {
+    line-height: 50px;
+    font-size: 1.6rem;
+    margin: 0;
+    color: #424770;
+
+}
+
+.logo-in {
+	padding-left:8px;
+	color:#FF9933 !important;
+	letter-spacing: 0.08rem
+}
+.logo-d {
+	color:#a2a2a269 !important;
+	letter-spacing: 0.08rem;
+	
+}
+
+.logo-ia{
+	color:#138808 !important;
+	letter-spacing: 0.08rem
+}
+
+a {
+
+	text-decoration: none;
+	color:#6672e5;
+}
+
+a:hover {
+	color: #6672e5;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.commonButton {
+	white-space: nowrap;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0.5em;
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    background: #6772E5;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+}
+
+
+.commonButton:hover{
+
+	color: #E5E5E5;
+}
+
+.title-Subscribe {
+	padding:90px 20px 50px;
+	max-width: 1040px;
+	width: 100%;
+	text-align: center;
+	margin:	0 auto;
+}
+
+.title-Subscribe h3{
+    line-height: 30px;
+    color: #424770;
+    font-weight:400;
+    letter-spacing: 0.04rem;
+}
+
+.title-Subscribe h4 {
+	font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 30px;
+    padding: 2vh 6vw;
+    color: #424770;
+}
+
+#subscribe-input-container{
+	display: flex;justify-content: center;
+}
+
+.email-input {
+	border: 1px solid #E5E5E5;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 0 14px;
+    font-size: 0.95em;
+    line-height: 38px;
+    font-weight: 300;
+    border-radius: 4px;
+    flex-basis:50%;
+}
+
+::placeholder {
+    color: #c2c5ce;
+    font-family: inherit;
+    font-weight: 400;
+}
+
+#email-subscribe {
+ 	margin-left:-95px;
+ 	font-size: 0.9em;
+    font-weight: 500;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+}
+
+input:focus{
+	outline:none;
+}
+
+
+/** CSS for Ad section **/
+
+.ad-listing {
+    padding: 0;
+    border: none;
+    background: #fff;
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
+    position: relative;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #42466f;
+    border-radius: 4px;
+}
+
+.ad-img {
+    border: none;background: url('https://i.imgur.com/F60h3Pe.png') no-repeat;
+    background-size: cover;
+    width: 115px;
+    height: auto;
+    min-width: 115px;
+    min-height: 115px;
+    float: left;border-right: solid 0.1em white;padding: 15px;
+    border-radius: 4px;
+}
+
+.ad-details {
+    padding-left: 15px;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-category{
+    color: #aab7c4;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.ad-title{
+    font-size: 1.2em;
+    color: #32325d;
+    font-weight: 500;
+}
+
+.ad-desc{
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #32325d82;
+}
+
+.ad-here{
+    font-size: 10px;
+    margin-top: 15px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.ad-close{
+    opacity: 0.35;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: small;
+}
+
+/**CSS for Ads section ends **/
+
+
+.blog-home-page-title{
+    color: #424770b3;
+    width: 300px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline;
+    text-align:left;
+}
+
+.blog-Section, .blog-home-link-Section {
+    padding: 90px 20px 50px;
+    max-width: 1040px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#list-of-posts, #single-post-section{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 78%;
+    margin-right: 2%;
+}
+
+.blog-post-listing{
+    margin-top: 15px;
+    text-align: left;
+    color: #42466f;
+    padding: 0px;
+}
+
+.blog-post-title{
+    font-size: 1.2em !important;
+    color: #32325d !important;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    text-align: left; 
+}
+
+.blog-post-title > a{
+    font-size: 1.2em !important;
+    color: #32325d !important;
+}
+
+.blog-post-excerpt > p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.single-blog-post{
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+    color: #42466f;
+    padding: 0;
+}
+
+.blog-post-date,.single-blog-post-date{
+    text-align: left;
+    width: 20%;
+    color: darkgray;
+}
+
+.single-blog-post-title{
+    font-size: 1.7em;
+    color: #32325d;
+    line-height: 38px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.single-blog-post-content{
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 28px;
+    color: #32325dc9;
+}
+
+.single-blog-post-metadata {
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 32px;
+    margin-bottom: 10px;
+    color: #32325da1;
+}
+
+
+#contact-us{
+    display: flex;
+    font-size: 1em;
+    position: relative;
+    flex-direction: column;
+    flex-basis: 30%;
+    letter-spacing: 0.02em;
+    height: 300px;
+    background: linear-gradient(to bottom, #0000ff0a, #0000ff0a, #6674e830);
+    /* background: #0000ff0a; */
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* Media query for Email subscribe Button */
+
+@media (max-width: 465px)
+{
+	#email-subscribe{
+    	margin-top: 10px;
+    	padding:0 20px;
+	}
+}
+
+/* Media query ends */
+
+.filter-Section, .results-Section, .ads-Section {
+	padding:0px 20px 20px;
+	max-width: 1040px;
+	width: 100%;
+	text-align: center;
+	margin:	0 auto;
+}
+
+
+.footer-Section{
+    bottom: 0px;
+    width: 100%;
+    background: white;
+    border-top: solid 1px #e3e3e3;
+}
+
+.footer-jobs-col{
+    display: flex;margin-right: 25px;width: 33%;flex-direction: column;
+}
+
+
+.footer-jobs-section-heading{
+    font-size: 14px;text-transform: uppercase;
+}
+
+.footer-jobs-list {
+    padding-left: 0;font-size: 14px;line-height: 25px;color: rgba(0,0,0,0.5);
+}
+
+.footer-jobs-list > li > a {
+    color: rgba(0,0,0,0.5);
+}
+
+
+.filter-button {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 4px;
+    border-style: initial;
+    border-color: initial;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    background-color: white;
+    color: rgb(82, 95, 127);
+    font-size: 17px;
+    font-weight: 400;
+    width: 100%;
+    cursor: pointer;
+    border-width: 0px 0px 1px;
+    border-image: initial;
+    border-bottom: 1px solid rgb(230, 235, 241);
+    padding: 8px 20px;
+    flex-basis: 33.3%;
+    margin-right: 8px;
+
+}
+
+.filter-button:focus{
+	outline:none;
+}
+
+.filter-box{
+	position: absolute;
+    height: 250px;
+    padding: 20px;
+    border-radius: 4px;
+    top: 45px;
+    overflow: auto;
+    width: 32.3%;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display:none;
+}
+
+.filter-box > ul {
+	padding-left: 0;color: #424770c7;font-weight: 300;font-size: 16px;letter-spacing: 0.01em;
+	text-align: left;
+}
+
+.filter-box > ul > li {
+	padding: 3px 0;
+}
+
+.filter-box > ul > li > input {
+	margin-right: 5px;
+}
+
+#filter-container{
+	display: flex;flex-direction: row;position: relative;
+}
+
+#location-filter-box{
+	left : 33.3%;
+}
+
+#industry-filter-box{
+	left:66.5%;
+}
+
+/* Media query starts */ 
+@media (max-width: 630px)
+{
+	.navSection-sidemenu{
+		display: flex;
+	}
+	
+	.navSection-links {
+		display: none;
+	}
+
+	#subscribe-input-container{
+		justify-content: left;
+	}
+
+	.email-input {
+		flex-basis: 100%;
+	}
+
+	#filter-container{
+		flex-direction: column;
+	}
+
+	#email-subscribe {
+ 		margin-left:-120px;
+ 	}
+
+    .footer-jobs-col{
+        width:100%;
+    }
+
+    .container-lg {
+        display: block !important;
+    }
+
+}
+
+
+@media(max-width:900px)
+{
+    .blog-Section{
+        display:block;
+    }
+
+}
+/* Media query ends */
+
+.result-msg {
+	flex-direction: row;justify-content: center;color: #4247709e;padding-top: 20px;
+}
+
+.result-msg-bold {
+	font-weight: 500;color: #424770;
+}
+
+#clear-filters{
+	display:none;
+}
+
+
+.day-title {
+	text-align: left;
+	padding: 10px 0px;
+	color: #424770;
+}
+
+.job-listing {
+	display: flex;
+	margin-bottom: 15px;
+	flex-direction: row;
+	font-size: 15px;
+	background: #fff;
+	color: #42466f;
+	padding: 15px;
+	border: solid 1px rgba(0, 0, 0, 0.1);
+	box-shadow : rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 1px 1px 0px -1px;
+	border-radius: 4px;
+}
+
+
+.job-listing-description {
+	display: none;
+	margin-top:-16px;
+	border-top:solid 1px #80808038;
+	margin-bottom: 15px;
+	flex-direction: row;
+	font-size: 15px;
+	background: #fff;
+	color: #42466f;
+	padding: 20px;
+	border: solid 1px rgba(50, 50, 93, 0.25);
+	border-radius: 2px;
+	text-align: left;
+}
+
+.job-listing-description ul {
+	list-style: disc;
+}
+
+.role-img-initials {
+	width: 20%;
+    height: auto;
+    height: 75px;
+    max-width: 75px;
+    /* height: 75px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    font-size: 1.4em;
+}
+
+.role-company{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    width: 45%;
+}
+
+.role-company-name, .role-title {
+	display:flex;
+}
+	
+.role-link {
+	color: #6772e5;
+}
+
+.role-location, .role-industry, .role-posted-time{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+
+.role-industry{
+    width:30%;
+}
+
+.role-posted-time {
+    padding-left: 10px;
+    width: 25%;
+    display: none;
+}
+
+.know-more, .apply-for-job {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 20px;
+    width:25%;
+}
+
+.know-more-mobile, .apply-for-job-mobile{
+	display: none;
+}
+
+
+.sm-role-details {
+	display: flex;
+	margin-top: 2px;
+	display : none;
+}
+
+.sm-role-location, .sm-role-industry {
+	font-size: 11px;
+    padding: 5px;
+    background: white;
+    border-radius: 2px;
+    color: #42466f;
+    border: solid 1px #bbbcc685;
+}
+
+/* Media query for Know More and Apply Button */
+@media (max-width: 530px)
+{
+
+	.know-more, .apply-for-job{
+
+		display: none;
+	}
+
+	.know-more-mobile, .apply-for-job-mobile{
+		display : flex;
+		justify-content: center;
+    	flex-direction: column;
+    	padding: 0px 0px 0px 5px;
+    	margin-top: -10px;
+	}
+
+    .ad-category{
+        font-size: 0.8em;
+    }
+
+    .ad-title{
+        font-size: 1em;
+    }
+
+    .ad-desc{
+        font-size: 0.9em;
+    }
+
+    .ad-cta{
+        font-size: 0.95em;
+    }
+
+}
+
+/* Media query ends */
+
+/* Media query for Email subscribe Button */
+
+@media (max-width: 790px)
+{
+	.sm-role-details {
+    	display : flex;
+	}
+
+	.role-location, .role-industry, .role-posted-time{
+
+		display: none;
+	}
+
+	.role-company {
+		width : 100%;
+	}
+
+}
+
+/* Media query ends */
+
+.success-icon{
+	width:20px;
+	margin-right:10px;
+}
+
+
+/*CSS for Shimmer effect */
+.shimmer {
+   animation : shimmeranimation 2s infinite linear;
+   background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+   background-size: 1000px 100%;
+}
+
+@keyframes shimmeranimation {
+  0% {
+    background-position: -1000px 0;
+  }
+   100% {
+    background-position: 1000px 0;
+  }
+}
+
+/*CSS for shimmer effect ends */
+
+
+/* CSS for manage page begins */
+
+
+.navSection-postJob{
+	display: flex;
+	justify-content: flex-end;
+	margin-top:10px;
+}
+
+.edit-job, .mark-as-invalid, .publish-job {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right:20px;
+}
+
+.modal-label{
+	font-weight:500;
+	font-size:0.9em;
+}
+
+.modal-field{
+	margin-bottom:15px;
+}
+
+.modal-input-control{
+	border: 1px solid #E5E5E5;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;*/
+    padding: 0 14px;
+    font-size: 0.95em;
+    line-height: 38px;
+    font-weight: 300;
+    border-radius: 4px;
+    width:100%;
+}
+
+.role-redirects-to{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+}
+
+.redirects-to{
+	background: black;
+	width:100px;
+	border-radius:3px;
+	padding:4px;
+	font-size:0.8em;
+	color:white;
+}
+
+.live-job, .invalid-job {
+	display : none !important;
+}
+
+/* CSS for manage page ends */
+
+/*CSS for sidenav */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.2s;
+  box-shadow: rgba(50, 50, 93, 0.42) 0px 2px 5px -1px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: inherit;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* CSS for sidenav ends */

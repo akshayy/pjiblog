@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-11-08T22:46:38+05:30</updated><id>http://localhost:4000/</id><title type="html">Blog - Product Jobs India</title><subtitle>Updates about product management jobs in India, musings on SaaS, and insights on becoming a better product manager.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/2017/09/07/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-09-07T04:33:29+05:30</published><updated>2017-09-07T04:33:29+05:30</updated><id>http://localhost:4000/2017/09/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/2017/09/07/welcome-to-jekyll/">&lt;p&gt;SAN FRANCISCO—Stripe today announced the launch of Stripe Identity, the easiest way for internet businesses to securely verify the identities of users from over 30 countries.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;SAN FRANCISCO—Stripe today announced the launch of Stripe Identity, the easiest way for internet businesses to securely verify the identities of users from over 30 countries.&lt;/p&gt;
+
+&lt;p&gt;As more economic activity happens online, the need for internet businesses to establish and maintain high levels of trust increases commensurately. Online businesses frequently need to verify the identities of their users to comply with age requirements or “Know Your Customer” (KYC) laws—and to increase trust and safety by reducing fraud, preventing account takeovers, and stopping bad actors.&lt;/p&gt;
+
+&lt;p&gt;Stripe Identity makes identity verification as effortless for a business as payment acceptance. Identity is built on the same infrastructure that powers Stripe’s own global onboarding compliance and risk management, meaning that the verification tooling Stripe originally built for itself is now available to Stripe’s users as well. Stripe Identity is the first self-serve tool of its kind, allowing any online business to begin verifying the identities of their users in just a few minutes, with no code required.&lt;/p&gt;
+
+&lt;p&gt;Early users of Stripe Identity include:&lt;/p&gt;
+
+&lt;p&gt;Discord, which embedded identity verification as a feature to ensure trustworthiness.&lt;/p&gt;
+
+&lt;p&gt;Peerspace, which added identity verification to their checks when onboarding users or merchants to reduce fraud.&lt;/p&gt;
+
+&lt;p&gt;Shippo, whose fraud and risk teams augmented their own risk signals by asking high-risk users to verify their identity (without adding friction for good users).&lt;/p&gt;
+
+&lt;p&gt;Security teams at a range of companies, using Stripe Identity to help prevent account takeovers.&lt;/p&gt;
+
+&lt;p&gt;“Verifications serve as a critical tool in any marketplace that’s powered by trust, especially for a platform like Peerspace that connects people to unique spaces for important meetings or milestone life events,” said Matt Bendett, VP of Operations at Peerspace. “The integration between Stripe Connect and Stripe Identity has allowed us to reduce fraud and give our users peace of mind, all while staying in a single, consistent experience that’s powered by Stripe.”&lt;/p&gt;
+
+&lt;p&gt;How it works&lt;/p&gt;
+
+&lt;p&gt;Stripe Identity is a simple and programmable way to verify identities online. A low-code integration option allows businesses to start verifying identities in minutes, with a verification flow fully hosted by Stripe. Alternatively, without any code at all, fraud and risk teams can generate verification links to assess suspicious transactions or high-risk users.&lt;/p&gt;
+
+&lt;p&gt;The information collected is encrypted and sent directly to Stripe, so an individual business doesn’t have to worry about managing sensitive, personal information on its own servers. (This is similar to Stripe’s hosted payments pages, which send payment information like credit card numbers directly to Stripe for secure processing.) This means businesses can now verify identities more quickly, more easily, and more securely—but take on less effort and risk themselves.&lt;/p&gt;
+
+&lt;p&gt;To prove their identity, users take a photo of their government ID and a live selfie, which Stripe’s advanced machine learning then matches to the ID. Businesses can also request that users key in additional information to be checked against third-party records.&lt;/p&gt;
+
+&lt;p&gt;The entire verification process for an individual user can be completed in as little as 15 seconds.&lt;/p&gt;
+
+&lt;p&gt;“Building our verification program on Stripe Identity has helped our users keep their identity information safe and secure,” said Mason Sciotti, Product Manager at Discord. “As Discord continues to grow, making everyone feel welcome and safe remains a top priority. Partnering with Stripe Identity was a natural fit for this project.”&lt;/p&gt;
+
+&lt;p&gt;“Businesses have been asking us for an easy and fast way to verify identities online. Stripe Identity offers them just that,” said Rob Daly, Head of Engineering for Stripe Identity. “Now, any internet business—from a five-person startup to a multinational enterprise—can begin securely verifying the identities of their users in a matter of minutes, not weeks or months.”&lt;/p&gt;
+
+&lt;p&gt;Powered by Stripe’s own compliance architecture&lt;/p&gt;
+
+&lt;p&gt;The architecture powering Stripe Identity was developed over the past decade by Stripe for its own use, and has already helped verify the identities of millions of merchants around the world as part of Stripe’s onboarding and anti-fraud checks. Businesses using Stripe Identity benefit from Stripe’s global scale, advanced machine learning, highly effective fraud prevention, and carefully optimized purchase and onboarding flows.&lt;/p&gt;
+
+&lt;p&gt;“We know from experience how much work it takes to build a rigorous and secure system for global identity verification,” said Delia Pawelke, Head of Global Risk Strategy and Onboarding Policy at Stripe. “With Stripe Identity, we’re making our advanced compliance infrastructure available to all of our users. For an online business, verifying someone’s identity is now as easy as accepting a payment.”
+Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;http://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Akki Deshmukh</name></author><summary type="html">SAN FRANCISCO—Stripe today announced the launch of Stripe Identity, the easiest way for internet businesses to securely verify the identities of users from over 30 countries.</summary></entry><entry><title type="html">Lorem ipsum</title><link href="http://localhost:4000/2017/09/06/Lorem-Ipsum/" rel="alternate" type="text/html" title="Lorem ipsum" /><published>2017-09-06T04:33:29+05:30</published><updated>2017-09-06T04:33:29+05:30</updated><id>http://localhost:4000/2017/09/06/Lorem-Ipsum</id><content type="html" xml:base="http://localhost:4000/2017/09/06/Lorem-Ipsum/">&lt;p&gt;Eius ut fugiat omnis. Autem nihil dignissimos deserunt eum. In adipisci ipsum natus saepe facere. Aspernatur velit autem sed. Rerum provident non incidunt id expedita aliquam non. Eum sit saepe autem nam aut voluptatem non et.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Sequi et ut consequatur et incidunt expedita provident. Iste ipsa eaque qui. Totam vitae quasi nulla aut aliquam harum. Quibusdam et deserunt possimus dolores voluptate facilis corrupti vero.&lt;/p&gt;
+
+&lt;p&gt;Molestiae dolores sit sed ut laudantium modi enim sunt. Eos ut suscipit ab aliquid reprehenderit deleniti. Doloremque nostrum aspernatur aut id alias est ut.&lt;/p&gt;
+
+&lt;p&gt;Aut sequi hic doloribus porro ipsa exercitationem in. Ducimus incidunt soluta veritatis sed a debitis. Nobis et expedita ipsam ipsum. Expedita quasi sit molestiae aut consequatur voluptatem optio non. Tempore quos ab qui dicta sed dolorem. Pariatur cumque nulla adipisci quo facere maiores sunt.&lt;/p&gt;
+
+&lt;p&gt;A excepturi debitis sit. Dolor sequi voluptatem voluptas quibusdam omnis nihil. Dolor aut laudantium sunt ut consequatur id.&lt;/p&gt;</content><author><name></name></author><summary type="html">Eius ut fugiat omnis. Autem nihil dignissimos deserunt eum. In adipisci ipsum natus saepe facere. Aspernatur velit autem sed. Rerum provident non incidunt id expedita aliquam non. Eum sit saepe autem nam aut voluptatem non et.</summary></entry></feed>
